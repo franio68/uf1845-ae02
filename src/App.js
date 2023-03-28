@@ -9,6 +9,7 @@ function App() {
 				<Navbar /> // Incluimos Navbar fuera de las rutas, pero dentro del Router
 				<Routes>
 					<Route path='/' element={<Home />} />
+					<Route path='/contacto' element={<Contacto />} />
 					<Route path='/about' element={<About />} />
 					<Route path='*' element={<Desconocido />} />
 				</Routes>
